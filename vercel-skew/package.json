@@ -1,0 +1,20 @@
+{
+  "name": "vercel-skew",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/material-symbols": "^1.1.79",
+    "@slidev/cli": "^0.49.2",
+    "slidev-theme-the-unnamed": "^0.0.18",
+    "vue": "^3.4.27"
+  },
+  "packageManager": "pnpm@8.15.6+sha512.77b89e9be77a2b06ad8f403a19cae5e22976f61023f98ad323d5c30194958ebc02ee0a6ae5d13ee454f6134e4e8caf29a05f0b1a0e1d2b17bca6b6a1f1159f86",
+  "devDependencies": {
+    "playwright-chromium": "^1.44.0"
+  }
+}
